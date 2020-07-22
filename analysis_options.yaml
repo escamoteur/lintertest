@@ -1,11 +1,11 @@
-
+include: package:pedantic/analysis_options.yaml
 
 # analyzer:
 #   exclude:
     
 linter:
   rules:
-    prefer_single_quotes
+    - prefer_single_quotes
     # ------ Disable individual rules ----- #
     #                 ---                   #
     # Turn off what you don't like.         #
