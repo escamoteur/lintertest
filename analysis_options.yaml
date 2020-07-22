@@ -1,0 +1,17 @@
+
+
+# analyzer:
+#   exclude:
+    
+linter:
+  rules:
+    prefer_single_quotes
+    # ------ Disable individual rules ----- #
+    #                 ---                   #
+    # Turn off what you don't like.         #
+    # ------------------------------------- #
+
+#    avoid_print: false
+#    unnecessary_await_in_return: false
+#    type_annotate_public_apis: false
+#    avoid_function_literals_in_foreach_calls: false
